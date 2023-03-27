@@ -1,0 +1,83 @@
+
+.first,.third,.fifth{
+    margin-top: 10rem;
+    /* padding-left: 5rem; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.second, .fourth, .sixth{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.first{
+    margin-top: 4rem;
+}
+
+.homepage-content-h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    /* line-height: 40px; */
+    color: #461EB8;
+}
+
+.homepage-content{
+    flex: 0.5;
+    padding-left: 5rem;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #787878;
+    width: 50rem;
+}
+
+/* .second > .homepage-content{
+    padding-right: 10rem;
+} */
+
+.firstImage,.thirdImage,.secondImage,.fourthImage,.fifthImage,.sixthImage{
+        flex: 0.5;
+    }
+
+.homepage-content-img{
+    width: fit-content;
+    height: 25rem; 
+}
+
+.homepage-content.homepage-content-h3{
+    width: 30rem;
+}
+
+@media screen and (max-width: 960px){
+
+    .first,.second,.third,.fouth,.fifth,.sixth{
+        justify-content: center;
+    }
+
+    .firstImage,.thirdImage,.fifthImage{
+        padding-top: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 460px){
+
+    #home{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        overflow: scroll;
+    }
+
+    .homepage-content-img{
+        width: 90vw;
+    }
+  }

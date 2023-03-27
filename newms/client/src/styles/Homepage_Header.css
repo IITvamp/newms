@@ -1,0 +1,109 @@
+/* .homepage-header-main{
+    margin: 0;
+    font-size: 62.5%;
+} */
+
+/* .button{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+} */
+
+.homepage-header-main > .head-container {
+  background: url("../old_components/HomePage/Assets/bg.png") center
+    center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  box-shadow: 20px 0 20px #474747;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+.homepage-header-main > .head-container-heading {
+  margin-top: -4rem;
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9rem;
+  line-height: 13rem;
+  color: white;
+}
+
+.homepage-header-main > .head-container-paragraph {
+  color: #fff;
+  margin-top: 0;
+  font-size: 2rem;
+  margin-bottom: 7rem;
+}
+
+#getStarted {
+  height: fit-content;
+  width: fit-content;
+  border-radius: 5rem;
+  background: linear-gradient(87.29deg, #3b41c5 0%, #51298b 100%);
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  align-self: center;
+  padding: 0.5rem;
+  color: white;
+}
+
+#getStarted:hover {
+  background: linear-gradient(87.29deg, #51298b 0%, #3b41c5 100%);
+  opacity: 0.9;
+  transition: opacity 0.5s ease;
+}
+
+/* #logIn{
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    background: white;
+    border-radius: 4px;
+    color: black;
+    font-weight: bold;
+    font-size:1.8rem ;
+}
+
+#logIn:hover{
+    background: linear-gradient(92.54deg, #3A41C6 -0.34%, #3D3BBB 24.22%, #4634A7 51.4%, #4C2C96 77.53%, #512888 100%);
+    color: white;
+    transition: 0.5s ;
+} */
+
+#HeadlogIn {
+  height: 5.5rem;
+  width: 25rem;
+  border-radius: 5rem;
+  color: white;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  align-self: center;
+  padding: 1rem;
+  background-color: transparent;
+  border: 2px solid white;
+  display: none;
+}
+
+#HeadlogIn:hover {
+  background-color: white;
+  color: #461eb8;
+}
+
+@media screen and (max-width: 960px) {
+  #HeadlogIn {
+    display: flex;
+  }
+}
